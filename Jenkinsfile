@@ -7,9 +7,6 @@ agent any
         stage ('Test') { 
             steps {echo'Testibg...'}
         }
-        stage ('QA') { 
-        
-        }
         stage ('Deploy') { 
             steps {echo'Deploying...'}
         
