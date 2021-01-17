@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     sh'C:\Users\akhil\anaconda3>python.exe --version'
+                     sh'python --version'
                  }
                  }
          }
