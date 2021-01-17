@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo' python --version'
+                     echo' python -m sources/calc.py'
                  }
                  }
          }
